@@ -1,0 +1,65 @@
+html,
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.section {
+    padding-top: 75px;
+}
+
+.next {
+    font-size: 65px;
+}
+
+.next a {
+    color: rgb(33, 37, 41);
+}
+
+.arrow-next {
+    color: var(--bs-primary) !important;
+}
+
+.arrow-next:hover {
+    color: var(--bs-primary-dark) !important;
+}
+
+.nav-item:hover {
+    background-color: var(--bs-primary-dark)
+}
+
+.language-wrapper img,
+.contact-wrapper a {
+    height: 60px;
+    transition-duration: 0.3s;
+    transition-property: all;
+}
+
+.language-wrapper img:hover,
+.contact-wrapper a:hover {
+    transform: scale(1.2);
+}
+
+.class-card {
+    background-color: #eeeeee;
+    color: black;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.class-card:hover {
+    background-color: var(--bs-primary);
+    color: white;
+}
+
+#cat {
+    font-family: 'Comic Sans MS';
+    background-color: aquamarine;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+}
+
+#cat img {
+    border: 2px dashed black;
+    align-self: center;
+}
